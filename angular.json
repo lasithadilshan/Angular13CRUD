@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular13CRUD"
+    }
+  },
+  "defaultProject": "Angular13CRUD",
+  "cli": {
+    "analytics": "40d5aac5-070a-4be8-adbe-dd424d24ae78"
+  }
 }
