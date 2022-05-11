@@ -1,6 +1,6 @@
 # Angular13CRUD
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
 
 ## Development server
 
