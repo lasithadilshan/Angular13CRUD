@@ -28,10 +28,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## How to install json server
 
-npm i json-server
+`npm i json-server`
 
 To get more information about [Json Server](https://www.npmjs.com/package/json-server)
 
 ## How to watch json server
 
-json-server --watch db.json
+`json-server --watch db.json`
