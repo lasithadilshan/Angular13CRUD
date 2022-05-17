@@ -29,7 +29,11 @@ export class AppComponent implements OnInit {
   openDialog() {
     this.dialog.open(DialogComponent, {
       width:'30%'
-    });
+    }).afterClosed().subscribe(val=>{
+      if(val === 'save') {
+        this.getAllProducts();
+      }
+    })
   }
   getAllProducts(){
     this.api.getProduct()
@@ -41,6 +45,16 @@ export class AppComponent implements OnInit {
       },
       error: (err) => {
         alert("Error while fetching the Records!!");
+      }
+    })
+  }
+  editProduct(row:any){
+    this.dialog.open(DialogComponent,{
+      width: '30%',
+      data:row
+    }).afterClosed().subscribe(val=>{
+      if(val==='update'){
+        this.getAllProducts();
       }
     })
   }
