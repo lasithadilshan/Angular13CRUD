@@ -8,6 +8,15 @@
       "comment": "This is fresh apple",
       "date": "2022-05-14T18:30:00.000Z",
       "id": 1
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 260,
+      "comment": "Very Tasty",
+      "date": "2022-05-15T18:30:00.000Z",
+      "id": 2
     }
   ],
   "comments": [
