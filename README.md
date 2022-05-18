@@ -35,3 +35,11 @@ To get more information about [Json Server](https://www.npmjs.com/package/json-s
 ## How to watch json server
 
 `json-server --watch db.json`
+
+## Deploy Angular App on github using these 3 commands
+
+`npm install -g angular-cli-ghpages`
+
+`ng build --prod --base-href "https://<user-name>.github.io/<repo>/"`
+
+`ngh --dir dist/Angular13CRUD`
