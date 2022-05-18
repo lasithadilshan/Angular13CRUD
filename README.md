@@ -36,7 +36,7 @@ To get more information about [Json Server](https://www.npmjs.com/package/json-s
 
 `json-server --watch db.json`
 
-## Deploy Angular App on github using these 3 commands
+## Deploy(Publish) Angular App on github using these 3 commands
 
 `npm install -g angular-cli-ghpages`
 
